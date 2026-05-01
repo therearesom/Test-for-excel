@@ -1,3 +1,4 @@
+import random
 import pandas as pd
 
 excel_file = "Test.xlsx"
@@ -91,18 +92,8 @@ for w in words:
                 a.append([])
             a[len(w)].append(w)
     except:
-        print(w)
         a[4].append("null")
 
 
-
-
-
-
-print(a[5])
-
-
-
-
-
+print(len(a[5]))
 
